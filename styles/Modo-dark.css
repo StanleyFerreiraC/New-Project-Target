@@ -29,4 +29,3 @@ body.dark {
 .checkbox:checked + .label .ball:hover {
   background-color: #c77e46;
 }
-
