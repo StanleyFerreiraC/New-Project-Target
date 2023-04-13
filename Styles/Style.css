@@ -130,8 +130,8 @@ h2 {
   }
 
   .maior-valor {
-    color: green;
+    color: rgb(36, 211, 36);
   }
   .menor-valor {
-    color: red;
+    color: rgb(255, 65, 65);
   }
