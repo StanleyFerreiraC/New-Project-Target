@@ -1,0 +1,34 @@
+
+
+body.dark {
+  background: #2d3250;
+
+}
+
+.dark #submenu {
+  background: #676f9d;
+}
+
+.dark h2 {
+  background: #676f9d;
+}
+
+.dark .conteiner {
+  background: #424769;
+}
+.dark #tabela {
+  background: #424769;
+}
+.dark form {
+  color: white;
+}
+.dark .form__button{
+  background-color: #fdac6d;
+}
+.dark .form__button:hover{
+  background-color: #c77e46;
+}
+.checkbox:checked + .label .ball:hover {
+  background-color: #c77e46;
+}
+
