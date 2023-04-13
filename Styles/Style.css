@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner {
+  width: 450px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: none;
+}
+#menu {
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#submenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e90ff;
+  width: 300px;
+  height: 85px;
+  border-radius: 5px;
+}
+
+#tabela {
+  width: 450px;
+  height: 520px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  
+}
+
+h2 {
+    background-color: #1e90ff;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .form__button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1e90ff;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .form__button:hover{
+  background-color: #1161b1;
+  }
+.noturno {
+  position: absolute;
+  top: 29px;
+  left: 1150px;
+}
+  .lab {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .p{
+    margin: 10px;
+  }
+  input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #c4c4c4;
+    text-align: center;
+  }
+
+  table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 80%;
+  }
+  th,
+  td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .output {
+    font-weight: bold;
+    margin-top: 20px;
+    
+  }
+
+  .resultado {
+    font-weight: bold;
+    margin-top: 20px;
+    
+  }
+
+  .maior-valor {
+    color: green;
+  }
+  .menor-valor {
+    color: red;
+  }
